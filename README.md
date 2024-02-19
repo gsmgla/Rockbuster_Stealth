@@ -58,6 +58,6 @@ _Software_: pgAdmin, DbVisualizer, Excel, Tableau
 
 ## Data Visualization
 
-/Screenshots/Rockbuster%20EDA%20Tableau.png
+Screenshots/Rockbuster EDA Tableau.png
 
 Deck created in [Tableau](https://public.tableau.com/app/profile/greta.lawani/viz/3_10RockbusterStealthLLC/RockbusterCompetitivenessAnalysis)

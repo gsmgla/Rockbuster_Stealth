@@ -1,0 +1,15 @@
+SELECT 	
+	name AS genre, country,
+	SUM (amount) AS revenue
+FROM payment A	
+	INNER JOIN rental B on A.rental_ID = B.rental_ID
+	INNER JOIN inventory C on B.inventory_ID = C.inventory_ID
+	INNER JOIN film D on C.film_ID = D.film_ID 
+	INNER JOIN film_category E on D.film_ID = E.film_ID
+	INNER JOIN category F on E.category_ID = F.category_ID
+	INNER JOIN customer G on B.customer_ID = G.customer_ID
+	INNER JOIN address H ON G.address_id = H.address_id
+	INNER JOIN city I ON H.city_id = I.city_id
+	INNER JOIN country J ON I.country_ID = J.country_ID
+GROUP BY name, country	
+ORDER BY revenue DESC	

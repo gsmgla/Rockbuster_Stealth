@@ -60,6 +60,7 @@ _Software_: pgAdmin, DbVisualizer, Excel, Tableau
 
 <picture>
   <source media= "(prefers-color-scheme: dark)" srcset="https://drive.google.com/file/d/1ZKi8WlY7zbULhbl4yaAtMbKcRqjCaMrJ/view?usp=sharing">
+   <source media="(prefers-color-scheme: light)" srcset="https://drive.google.com/file/d/1ZKi8WlY7zbULhbl4yaAtMbKcRqjCaMrJ/view?usp=sharing">
   <img alt="Rockbuster Competitiveness Analysis - Explory Data Analysis" src="https://drive.google.com/file/d/1ZKi8WlY7zbULhbl4yaAtMbKcRqjCaMrJ/view?usp=sharing">
 </picture>
 

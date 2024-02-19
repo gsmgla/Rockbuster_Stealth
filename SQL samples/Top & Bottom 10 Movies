@@ -1,4 +1,4 @@
-**Top 10 movies**
+/*Top 10 movies*/
 
 SELECT A. title,	
 	   F. name,
@@ -18,7 +18,7 @@ GROUP BY A. title,
 ORDER BY total_revenue DESC	
 LIMIT 10;	
 
-**Bottom 10 movies**
+/*Bottom 10 movies*/
 
 SELECT A. title,	
 	   F. name,

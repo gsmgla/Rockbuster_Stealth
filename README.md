@@ -53,6 +53,7 @@ This structured database forms the foundation for answering the posed business q
 ## Tools
 
 _Language_: PostgreSQL
+
 _Software_: pgAdmin, DbVisualizer, Excel, Tableau
 
 ## Data Visualization

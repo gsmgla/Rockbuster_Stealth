@@ -1,0 +1,17 @@
+SELECT A. title,	
+	   F. name,
+	   A. rating,
+	   A. release_year,
+	   SUM (D.amount) AS total_revenue  
+FROM film A	
+INNER JOIN inventory B ON B. film_id=A.film_id	
+INNER JOIN rental C ON C.inventory_id=B.inventory_id	
+INNER JOIN payment D ON D. rental_id=C.rental_id	
+INNER JOIN film_category E ON A. film_id=E.film_id	
+INNER JOIN category F ON E.category_id=F.category_id	
+GROUP BY A. title,	
+	     A. release_year,
+	     A. rating,
+	     F. name 
+ORDER BY total_revenue DESC	
+LIMIT 10;	

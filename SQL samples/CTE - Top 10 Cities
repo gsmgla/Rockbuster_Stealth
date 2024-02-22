@@ -1,3 +1,5 @@
+Here find a SQL query with a common table expression:
+
 SELECT D.country,	
 C.city,	
 	   COUNT (customer_id) AS Total_number_of_Customers 
